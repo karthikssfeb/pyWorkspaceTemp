@@ -1,0 +1,1 @@
+Delete this folder. This is a place holder to indicate that a venv folder will be created within this pyWorkspaceTemp when using the setup venv.bat script.

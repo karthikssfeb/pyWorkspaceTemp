@@ -1,0 +1,1 @@
+Contains build temp files. Cleanup this folder before using this workspace template.
