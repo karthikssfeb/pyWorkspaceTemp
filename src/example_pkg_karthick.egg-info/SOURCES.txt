@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/example_pkg/__init__.py
+src/example_pkg/simple_math.py
+src/example_pkg_karthick.egg-info/PKG-INFO
+src/example_pkg_karthick.egg-info/SOURCES.txt
+src/example_pkg_karthick.egg-info/dependency_links.txt
+src/example_pkg_karthick.egg-info/requires.txt
+src/example_pkg_karthick.egg-info/top_level.txt
