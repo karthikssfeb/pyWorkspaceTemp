@@ -4,5 +4,15 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+			"terminal.integrated.profiles.windows": {
+				"C:\\Windows\\System32\\cmd.exe (migrated)": {
+					"path": "C:\\Windows\\System32\\cmd.exe",
+					"args": []
+				}
+			},
+		"terminal.integrated.defaultProfile.windows": "C:\\Windows\\System32\\cmd.exe (migrated)",
+		//"terminal.integrated.cwd": "<path to start cmd terminal>",
+		"python.terminal.executeInFileDir": true	
+	}
 }
