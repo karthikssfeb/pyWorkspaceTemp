@@ -1,0 +1,13 @@
+# Personal account
+Host github-karthikssfeb
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_ed25519
+   IdentitiesOnly yes
+   
+# Work account
+Host github.com   
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa
+   IdentitiesOnly yes
