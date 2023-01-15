@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
       - name: Build wheel files
         run: |
-          python setup.py bdist_wheel
+          python -m build
 
 
 
