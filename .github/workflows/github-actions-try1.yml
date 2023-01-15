@@ -24,6 +24,13 @@ jobs:
       - name: Build wheel files
         run: |
           pip wheel --wheel-dir dist .
+      - name: Commit files and push
+        run: |
+          git config user.email "karthikssfeb@gmail.com"
+          git config user.name "Karthick Shanmuga Rao"
+          git add .
+          git commit -m "Add wheel files"
+          git push origin try_github_actions
 
 
 
