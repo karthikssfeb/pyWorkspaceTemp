@@ -3,13 +3,12 @@ Name: example-pkg-karthick
 Version: 0.0.5
 Summary: A small example package
 Home-page: https://github.com/karthikssfeb/ExamplePackage
+Download-URL: https://github.com/karthikssfeb/ExamplePackage/archive/v_01.tar.gz
 Author: Karthick Shanmuga Rao
 Author-email: karthikssfeb@gmail.com
 License: MIT
-Download-URL: https://github.com/karthikssfeb/ExamplePackage/archive/v_01.tar.gz
 Project-URL: Bug Tracker, https://github.com/karthikssfeb/ExamplePackage/issues
 Keywords: SOME,MEANINGFULL,KEYWORDS
-Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
 Classifier: Topic :: Software Development :: Build Tools
@@ -22,5 +21,3 @@ License-File: LICENSE
 
 # pyWorkspaceTemp
 Template to start a python workspace with vscode
-
-
