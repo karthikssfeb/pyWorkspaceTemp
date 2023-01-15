@@ -1,0 +1,32 @@
+name: Python build package
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+
+on:
+  push:
+    branches:
+      - try_github_actions
+
+jobs:
+  Build-Python-Package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with: 
+          python-version: 3.9
+      - name: Install Dependencies
+        run: | 
+          python -m venv .env
+          source .env/bin/activate
+          pip install -r requirements.txt
+      - name: Build wheel files
+        run: |
+          pip wheel --wheel-dir dist -r requirements.txt
+
+
+
+
+    
+
