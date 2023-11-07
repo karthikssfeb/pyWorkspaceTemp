@@ -1,0 +1,10 @@
+podman machine init
+
+
+Use the rootful mode so that containers have full connectivity, needed for OpenID Connect token validation.
+
+podman machine set --rootful=true
+
+To limit cpu, memory and disk usage use the following command
+
+podman machine init --cpus 2 --memory 3072 --disk-size 50
